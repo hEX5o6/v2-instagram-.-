@@ -54,6 +54,7 @@ if raw == 2:
           rz = requests.post(url,data=pa)
           zzz = 'https://www.instagram.com/accounts/registered/'
           iC = requests.get(zzz).text
+          iC.colose()
           if 'Add a profile photo' in iC:
               urls = 'https://www.instagram.com/accounts/logout/'
               e = requests.get(urls)
