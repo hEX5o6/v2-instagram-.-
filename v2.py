@@ -45,7 +45,7 @@ if raw == 2:
     for x in op:
         x = x.strip()
         for iz in op2:
-            iz = iz.strip()
+          iz = iz.strip()
           url = 'https://www.instagram.com/accounts/login/'
           pa = {
             'username':x,
@@ -68,3 +68,4 @@ else:
 
 
           
+
