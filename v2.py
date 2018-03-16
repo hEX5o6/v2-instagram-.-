@@ -1,7 +1,7 @@
 # CodEd By : hex!~5o6
 
 try:
-    import request
+    import requests
 except:
     print(' install Requests')
 
